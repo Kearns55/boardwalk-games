@@ -21,10 +21,17 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color{
     color:var(--hightlight-color)
+}
+
+.section{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -36,6 +43,11 @@ h3 {
 
 #navbar .logo{
     width: 30px;
+}
+
+/* Header */
+#header .lead{
+    font-family: var(--secondary-font);
 }
 
 
