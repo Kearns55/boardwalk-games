@@ -13,7 +13,8 @@
 
 /* Global Styles */
 body{
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+    padding-top: 57.15px; /*Adds padding to keep nav bar seperate*/
 }
 
 h1,
