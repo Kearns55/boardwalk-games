@@ -141,6 +141,28 @@ h2{
         background-color: transparent;
 }
 
+/* Events */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+
+.student-discount {
+    background-color: var(--hightlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    
+}
+
 @media screen and (min-width: 768px) {
     /* makes all service cards the same height */
     #services .card-body{
@@ -170,6 +192,14 @@ h2{
     /* makes all service cards the same height */
     #services .card-body{
         min-height: 195px;
+    }
+    @media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
     }
 
      
